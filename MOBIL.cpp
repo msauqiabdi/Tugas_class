@@ -19,4 +19,20 @@ int main(){
 	SUZUKI.nama    =" MOBIL SUZUKI ";
 	SUZUKI.tipe	   =" SUZUKI ERTIGA ";
 	
-
+		cout<< (AVANZA.nama);
+		cout<< (AVANZA.tipe);
+	AVANZA.warna("Hitam");
+	
+		cout << (DAIHATSU.nama);
+		cout << (DAIHATSU.tipe);
+	DAIHATSU.warna("Putih");
+	
+	
+		cout<< (SUZUKI.nama);
+		cout<< (SUZUKI.tipe);
+	SUZUKI.warna("Silver");
+}
+	void MOBIL::warna(string nama){
+		cout<<nama<<endl;
+	
+}
